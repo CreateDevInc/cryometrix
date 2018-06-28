@@ -19,7 +19,6 @@
     var calcResultsTotalProductCapacity = document.querySelector(
       "#calc-results-total-product-capacity"
     );
-    var calcUnitSelector = document.querySelector("#calc-unit-selector");
     var unitsSection = document.querySelectorAll(".calc-unit");
 
     var radioButtonSelectors = document.querySelectorAll(
@@ -33,7 +32,6 @@
     var currentUnits = "in";
 
     calcForm.addEventListener("submit", calculate);
-    calcUnitSelector.addEventListener("click", changeUnits);
 
     //SPACING
 
