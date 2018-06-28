@@ -5,23 +5,24 @@
     p Enter width, height, and depth of your product to calculate the storage capacity of your freezer.
     form(id="calc-form" )
         .units
-            p English
-            label.switch
-                input(type="checkbox" id="calc-unit-selector")
-                span.slider
-            p Metric
+            div
+                input(type="radio", name="system", value="in", checked)  
+                label &nbsp;English
+            div
+                input(type="radio", name="system", value="cm")  
+                label &nbsp;Metric
         label.required #[span Height]
             .input-block
                 input(name="height" type="number", id="calc-height", pattern="\d+", step=".01", required)
-                p.calc-unit inches
+                p.calc-unit in
         label.required #[span Width]
             .input-block
                 input(name="width" type="number", id="calc-width", pattern="\d+", step=".01", required)
-                p.calc-unit inches
+                p.calc-unit in
         label.required #[span Depth]
             .input-block
                 input(name="depth" type="number", id="calc-depth", pattern="\d+", step=".01", required)
-                p.calc-unit inches
+                p.calc-unit in
         div.g-recaptcha(data-sitekey="6LdZ8VkUAAAAAAOu3yTln3VRZwMeLVf4Vcbpq9UZ")
         button(type="submit" id="calc-submit-btn") Submit
     div.hidden(id="calc-results")
