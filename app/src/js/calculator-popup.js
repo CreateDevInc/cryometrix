@@ -22,7 +22,15 @@
     var calcUnitSelector = document.querySelector("#calc-unit-selector");
     var unitsSection = document.querySelectorAll(".calc-unit");
 
-    var currentUnits = "inches";
+    var radioButtonSelectors = document.querySelectorAll(
+      '#calc-form > .units input[type="radio"]'
+    );
+
+    for (var i = 0; i < radioButtonSelectors.length; i++) {
+      radioButtonSelectors[i].addEventListener("change", changeUnits);
+    }
+
+    var currentUnits = "in";
 
     calcForm.addEventListener("submit", calculate);
     calcUnitSelector.addEventListener("click", changeUnits);
@@ -30,7 +38,7 @@
     //SPACING
 
     const unitConst = {
-      inches: {
+      in: {
         HEIGHT_SPACING: 0.5,
         WIDTH_SPACING: 0.5,
         DEPTH_SPACING: 0.5,
@@ -77,7 +85,7 @@
     };
 
     function changeUnits(e) {
-      currentUnits = e.target.checked ? "cm" : "inches";
+      currentUnits = e.target.value;
       updateUnitText();
 
       if (!calcResults.classList.contains("hidden")) {

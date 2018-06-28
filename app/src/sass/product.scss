@@ -74,9 +74,17 @@ body {
                     color: $logo-blue;
                     cursor: pointer;
                     padding: ($standard-spacing / 2) 0;
-                    text-decoration: underline;
+                    text-decoration: none;
                     transition-duration: 300ms;
                     display: block;
+
+                    span {
+                        text-decoration: underline;
+                    }
+
+                    .fa-file-alt, .fa-calculator {
+                        font-size: 19px;
+                    }
                     
                     margin-left: 25px;
 
