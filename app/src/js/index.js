@@ -18,4 +18,5 @@ import "../sass/styles.scss";
 import "./switch";
 import "./header";
 import "./calculator-popup"
+import "./releases"
 // import './contact-popup'
