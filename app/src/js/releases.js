@@ -1,4 +1,4 @@
-if (/blog.html$/.test(window.location.href)) {
+if (/blog/.test(window.location.href)) {
 
   
   const apiURL =
