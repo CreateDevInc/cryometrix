@@ -9,6 +9,7 @@ import "../pug/product-s90.pug";
 import "../pug/templates/product.pug";
 import "../pug/components/footer.pug";
 import "../pug/components/header.pug";
+import "../pug/components/head.pug";
 import "../pug/index.pug";
 import "../pug/contact.pug";
 import "../pug/thanks.pug";
