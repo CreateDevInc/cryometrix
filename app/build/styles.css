@@ -889,6 +889,98 @@ body .calc-popup {
     -ms-transform: translateX(26px);
     transform: translateX(26px); }
 
+.blog > h1 {
+  padding: 20px;
+  text-align: center;
+  font-size: 40px; }
+
+.blog .post-container {
+  width: 92%;
+  margin: auto;
+  min-height: 90%;
+  margin-bottom: 50px; }
+  .blog .post-container .post {
+    margin: 20px 0 20px 0;
+    opacity: 1;
+    transition-duration: 2000ms; }
+    .blog .post-container .post h2,
+    .blog .post-container .post h3,
+    .blog .post-container .post p {
+      display: inline-block; }
+    .blog .post-container .post h2 {
+      margin: 10px;
+      margin-left: 0; }
+    .blog .post-container .post p {
+      margin-left: 0px;
+      margin-bottom: 15px; }
+    .blog .post-container .post h3 {
+      margin-bottom: 10px; }
+  .blog .post-container .exerpt-limit {
+    max-height: 120px;
+    overflow: hidden; }
+  .blog .post-container .relative-container {
+    position: relative; }
+  .blog .post-container .fade-out-div {
+    display: block;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9), #FFF);
+    height: 32px;
+    position: absolute;
+    bottom: 0; }
+  .blog .post-container .read-more-btn {
+    padding: 5px 20px 20px 0;
+    cursor: pointer;
+    display: inline-block; }
+  .blog .post-container .hidden-post {
+    opacity: 0; }
+
+.lds-ring-wrapper {
+  display: block;
+  margin: auto;
+  position: fixed;
+  width: 25%;
+  left: 37.5%;
+  height: 40%;
+  top: 30%;
+  text-align: center; }
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px; }
+
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin: 6px;
+  border: 8px solid #009cdc;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #009cdc transparent transparent transparent; }
+
+.lds-ring.hidden {
+  opacity: 0;
+  transition: opacity 1.5s; }
+
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s; }
+
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s; }
+
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s; }
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
 * {
   margin: 0;
   font-family: "Open Sans", Arial, serif; }
