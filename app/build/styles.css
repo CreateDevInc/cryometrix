@@ -251,22 +251,23 @@ footer {
     footer .foot-info .foot-contact,
     footer .foot-info .foot-products {
       height: 100%;
+      width: 100%;
+      padding: 5px 5px;
       display: flex;
       flex-direction: column;
       justify-content: center; }
     footer .foot-info .container-2 {
       color: #666666;
       margin: 0 15px 15px 0;
-      align-self: flex-end; }
-      footer .foot-info .container-2 a {
-        color: #666666;
-        text-decoration: none;
-        transition-duration: 300ms; }
-        footer .foot-info .container-2 a:hover {
-          color: #009cdc; }
+      padding: 0 0 0 30px;
+      width: 100%;
+      align-self: center; }
       @media only screen and (max-width: 1080px) {
-        footer .foot-info .container-2 {
-          display: none; } }
+        footer .foot-info .container-2 img {
+          max-width: 75%; } }
+      @media only screen and (max-width: 800px) {
+        footer .foot-info .container-2 img {
+          max-width: 50%; } }
   footer .copyright {
     width: 100%;
     color: white;
