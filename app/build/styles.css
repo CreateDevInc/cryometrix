@@ -208,31 +208,33 @@ footer {
   footer h5 {
     font-size: 20px; }
   footer .foot-info {
-    margin: 0 12%;
+    margin: 0 2% 0 12%;
     height: 250px;
     display: flex;
-    justify-content: flex-start; }
+    justify-content: space-between; }
     footer .foot-info .container-1 {
       display: flex;
       justify-content: flex-start; }
-    footer .foot-info .foot-products ul {
-      padding-left: 0; }
-    footer .foot-info .foot-products li {
-      list-style: none; }
-      footer .foot-info .foot-products li a {
-        color: #009cdc;
-        padding: 5px;
-        display: block;
-        font-size: 17px;
-        font-weight: normal;
-        transition-duration: 300ms; }
-      footer .foot-info .foot-products li a:hover {
-        color: black; }
+    footer .foot-info .foot-products {
+      min-width: 210px; }
+      footer .foot-info .foot-products ul {
+        padding-left: 0; }
+      footer .foot-info .foot-products li {
+        list-style: none; }
+        footer .foot-info .foot-products li a {
+          color: #009cdc;
+          padding: 5px;
+          display: block;
+          font-size: 17px;
+          font-weight: normal;
+          transition-duration: 300ms; }
+        footer .foot-info .foot-products li a:hover {
+          color: black; }
     footer .foot-info .foot-contact {
       width: 100%;
       max-width: 250px;
       font-size: 17px;
-      margin-left: 110px; }
+      margin-right: 50px; }
       footer .foot-info .foot-contact p {
         color: #666666; }
       footer .foot-info .foot-contact a {
@@ -251,7 +253,6 @@ footer {
     footer .foot-info .foot-contact,
     footer .foot-info .foot-products {
       height: 100%;
-      width: 100%;
       padding: 5px 5px;
       display: flex;
       flex-direction: column;
@@ -260,7 +261,6 @@ footer {
       color: #666666;
       margin: 0 15px 15px 0;
       padding: 0 0 0 30px;
-      width: 100%;
       align-self: center; }
       @media only screen and (max-width: 1080px) {
         footer .foot-info .container-2 img {
