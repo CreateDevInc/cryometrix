@@ -8,10 +8,10 @@ footer {
     }
 
     .foot-info {
-        margin: 0 2% 0 12%;
+        margin: 0 2% 0 2%;
         height: 250px;
         display: flex;
-        justify-content: space-between;
+        justify-content:space-around;
 
         .container-1 {
             display: flex;
@@ -38,10 +38,8 @@ footer {
             }
         }
         .foot-contact {
-            width: 100%;
             max-width: 250px;
             font-size: $normal;
-            margin-right: 50px;
 
             p {
                 color: $copy-background;
@@ -76,10 +74,14 @@ footer {
 
         .container-2 {
             color: $copy-background;
-            margin: 0 15px 15px 0;
-            padding: 0 0 0 30px;
             align-self: center;
 
+            img {
+                border: 2px solid $copy-background;
+                border-radius: 3px;
+                transition-duration: 300ms;
+                margin-top: 5px;
+            }
             
             
             @include screen-size(mobile) {
