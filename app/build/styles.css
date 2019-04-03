@@ -208,10 +208,10 @@ footer {
   footer h5 {
     font-size: 20px; }
   footer .foot-info {
-    margin: 0 2% 0 12%;
+    margin: 0 2% 0 2%;
     height: 250px;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-around; }
     footer .foot-info .container-1 {
       display: flex;
       justify-content: flex-start; }
@@ -231,10 +231,8 @@ footer {
         footer .foot-info .foot-products li a:hover {
           color: black; }
     footer .foot-info .foot-contact {
-      width: 100%;
       max-width: 250px;
-      font-size: 17px;
-      margin-right: 50px; }
+      font-size: 17px; }
       footer .foot-info .foot-contact p {
         color: #666666; }
       footer .foot-info .foot-contact a {
@@ -259,9 +257,12 @@ footer {
       justify-content: center; }
     footer .foot-info .container-2 {
       color: #666666;
-      margin: 0 15px 15px 0;
-      padding: 0 0 0 30px;
       align-self: center; }
+      footer .foot-info .container-2 img {
+        border: 2px solid #666666;
+        border-radius: 3px;
+        transition-duration: 300ms;
+        margin-top: 5px; }
       @media only screen and (max-width: 1080px) {
         footer .foot-info .container-2 img {
           max-width: 75%; } }
