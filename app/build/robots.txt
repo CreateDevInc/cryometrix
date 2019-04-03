@@ -1,0 +1,4 @@
+User-agent:*
+Disallow:/components
+Disallow:/templates
+Sitemap: https://cryometrix.com/sitemap.xml
