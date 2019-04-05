@@ -217,7 +217,7 @@ footer {
       display: flex;
       justify-content: flex-start; }
     footer .foot-info .foot-products {
-      min-width: 210px; }
+      min-width: 250px; }
       footer .foot-info .foot-products ul {
         padding-left: 0; }
       footer .foot-info .foot-products li {
@@ -232,6 +232,7 @@ footer {
         footer .foot-info .foot-products li a:hover {
           color: black; }
     footer .foot-info .foot-contact {
+      min-width: 250px;
       max-width: 250px;
       font-size: 17px; }
       footer .foot-info .foot-contact p {
@@ -258,18 +259,14 @@ footer {
       justify-content: center; }
     footer .foot-info .container-2 {
       color: #666666;
-      align-self: center; }
+      align-self: center;
+      width: 20%; }
       footer .foot-info .container-2 img {
         border: 2px solid #666666;
+        max-width: 100%;
         border-radius: 3px;
         transition-duration: 300ms;
         margin-top: 5px; }
-      @media only screen and (max-width: 1080px) {
-        footer .foot-info .container-2 img {
-          max-width: 75%; } }
-      @media only screen and (max-width: 800px) {
-        footer .foot-info .container-2 img {
-          max-width: 50%; } }
   footer .copyright {
     width: 100%;
     color: white;
@@ -284,20 +281,21 @@ footer {
   footer {
     padding-top: 5px; }
     footer .foot-info {
-      height: 400px;
+      height: 560px;
       flex-direction: column;
-      justify-content: center; }
+      justify-content: center;
+      align-items: center; }
       footer .foot-info .foot-contact,
       footer .foot-info .foot-products {
         height: auto;
         margin: 20px 0; }
         footer .foot-info .foot-contact a,
         footer .foot-info .foot-products a {
-          margin-left: 0; } }
+          margin-left: 0; }
+      footer .foot-info .container-2 {
+        width: 250px; } }
 
 @media only screen and (max-width: 1080px) {
-  footer .foot-info {
-    justify-content: space-between; }
   footer .foot-contact {
     margin-left: 0px; } }
 
