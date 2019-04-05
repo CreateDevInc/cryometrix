@@ -20,8 +20,8 @@
         var metricButton = document.querySelector("#metric");
         var englishButton = document.querySelector("#english");
 
-        metricButton.addEventListener("click", toggleTable);
-        englishButton.addEventListener("click", toggleTable);
+        //metricButton.addEventListener("click", toggleTable);
+        //englishButton.addEventListener("click", toggleTable);
 
         function toggleTable(e) {
             if (e.target.id === 'metric') {

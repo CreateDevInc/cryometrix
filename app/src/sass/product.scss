@@ -124,6 +124,28 @@ body {
                 tr:nth-child(even) {
                     background-color: $foot-info;
                 }
+                #L80-table {
+                    font-size: 14px;
+                    th {
+                        text-align: center;
+                        background-color: $foot-info;
+                    }
+                    tr {
+                        background-color: white;
+                        border: 2px solid #444444;
+                    }
+                    td:first-child {
+                        background-color: $foot-info;
+                        border-right: 1px solid #444444;
+                        width: 35%;
+                    }
+                    td:nth-child(2) {
+                        text-align: center;
+                    }
+                    td {
+                        padding: 3px 5px;
+                    }
+                }
             }
         }
     }
