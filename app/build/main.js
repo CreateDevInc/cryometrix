@@ -305,7 +305,7 @@ eval("module.exports = \"html\\r\\n  head\\r\\n    block product-title\\r\\n    
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = \"html\\r\\n  head\\r\\n    title Contact Us\\r\\n    link(rel=\\\"canonical\\\" href=\\\"https://cryometrix.com/thanks\\\")\\r\\n    include components/head\\r\\n  body\\r\\n    include components/header\\r\\n\\r\\n    #wrapper.thanks\\r\\n        h1 Thanks for reaching out! We'll be in touch soon!\\r\\n\\r\\n    include components/footer\"\n\n//# sourceURL=webpack:///./app/src/pug/thanks.pug?");
+eval("module.exports = \"html\\r\\n  head\\r\\n    title Contact Us\\r\\n    link(rel=\\\"canonical\\\" href=\\\"https://cryometrix.com/thanks\\\")\\r\\n    include components/head\\r\\n  body\\r\\n    include components/header\\r\\n\\r\\n    #wrapper.thanks\\r\\n        h1 Thank you very much for reaching out! We'll be in touch soon!\\r\\n\\r\\n    include components/footer\"\n\n//# sourceURL=webpack:///./app/src/pug/thanks.pug?");
 
 /***/ }),
 
