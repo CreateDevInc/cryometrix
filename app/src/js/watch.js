@@ -16,3 +16,4 @@ import "../pug/contact.pug";
 import "../pug/thanks.pug";
 import "../pug/components/contact-component.pug";
 import "../pug/components/calculator-component.pug";
+import "../pug/product-t161.pug";

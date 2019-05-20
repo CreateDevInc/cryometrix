@@ -1,4 +1,5 @@
 User-agent:*
 Disallow:/components
 Disallow:/templates
+Disallow:/product-t161.html
 Sitemap: https://cryometrix.com/sitemap.xml
