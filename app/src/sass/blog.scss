@@ -37,6 +37,20 @@
         .relative-container {
             position: relative;
         }
+        .post-with-image {
+          display: flex;
+          @media screen and (max-width:900px) {
+            flex-direction: column;
+            align-items: center;
+          }
+
+          img {
+           
+            margin-right: 1rem;
+
+          }
+          
+        }
         .fade-out-div {
             display: block;
             width: 100%;

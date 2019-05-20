@@ -23,6 +23,9 @@ if (/blog/.test(window.location.href)) {
       content.classList.add("exerpt-limit");
       content.id = "content" + i;
       content.innerHTML = aResponse.content.rendered;
+      if (content.innerHTML.includes('<img')) {
+        content.classList.add('post-with-image')
+      }
 
       //read more button and function
       function handleClick(index) {
