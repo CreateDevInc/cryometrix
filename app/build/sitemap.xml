@@ -68,6 +68,12 @@
   <priority>0.64</priority>
 </url>
 <url>
+<url>
+  <loc>https://cryometrix.com/brochures/Cryometrix_L-80.pdf</loc>
+  <lastmod>2019-05-16T00:50:28+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://cryometrix.com/brochures/San%20Diego%20Blood%20Bank%20Plasma%20Flash%20Freezer%20Testing%20Report.pdf</loc>
   <lastmod>2019-05-20T00:50:28+00:00</lastmod>
   <priority>0.64</priority>
@@ -75,6 +81,21 @@
 <url>
   <loc>https://cryometrix.com/brochures/Projected%20Plasma%20Flash%20Freezer%20Report.pdf</loc>
   <lastmod>2019-05-20T00:50:28+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cryometrix.com/brochures/B90.EU.Declaration.of.Conformity.Sample.pdf</loc>
+  <lastmod>2019-06-17T00:50:28+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cryometrix.com/brochures/T90.EU.Declaration.of.Conformity.Sample.pdf</loc>
+  <lastmod>2019-06-17T00:50:28+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cryometrix.com/brochures/T160.EU.Declaration.of.Conformity.Sample.pdf</loc>
+  <lastmod>2019-06-17T00:50:28+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
