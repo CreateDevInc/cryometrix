@@ -2,7 +2,7 @@ if (/blog/.test(window.location.href)) {
 
   
   const apiURL =
-    "https://reflectannouncements.tk/cryo/index.php/wp-json/wp/v2/posts";
+    "https://blog.cryometrix.com/cryo/index.php/wp-json/wp/v2/posts";
 
   const postContainer = document.getElementsByClassName("post-container")[0];
 
