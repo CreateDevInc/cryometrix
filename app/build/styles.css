@@ -479,13 +479,24 @@ nav .mobile-nav ul {
     border: 1px solid #009cdc;
     max-height: 500px; }
 
-@media only screen and (max-width: 1080px) {
+@media screen and (max-width: 1350px) {
   nav {
-    padding: 15px; }
+    padding: 17px 15px; }
     nav .links {
       display: none !important; }
     nav .mobile-nav {
-      display: flex; } }
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+    nav #phone-number {
+      text-decoration: none;
+      padding-right: 15px;
+      font-size: 14px; } }
+
+@media screen and (max-width: 500px) {
+  #logo-img {
+    max-width: 140px;
+    padding: 7px 0; } }
 
 body h1 {
   font-size: 22px; }
