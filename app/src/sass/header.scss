@@ -124,6 +124,7 @@ nav {
         a, i {
             color: #fff;
         }
+
     }
 
     .mobile-nav > a { display: block; }
@@ -232,14 +233,32 @@ nav {
         }
     }
 
-    @include screen-size(mobile) {
-        padding: 15px;
+    @media screen and (max-width: 1350px) {
+        padding: 17px 15px;
 
         .links {
             display: none !important;
         }
         .mobile-nav {
             display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        #phone-number {
+            text-decoration: none;
+            padding-right: 15px;
+            font-size: 14px;
         }
     }
+
+
 }
+
+
+        #logo-img {
+
+            @media screen and (max-width: 500px){
+            max-width: 140px;
+            padding: 7px 0;
+            }
+        }
