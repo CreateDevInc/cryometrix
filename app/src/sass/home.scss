@@ -89,6 +89,25 @@ main {
         background-color: #e8e8e8;
         text-decoration: none;
 
+        &.two-wide {
+
+            @media screen and (min-width: $four-column-break) {
+                width: ($container-width / 2) + ((100% - $container-width) / 5);
+            }
+
+            @media screen and (max-width: $two-column-break) {
+                    width: ($container-width) + ((100% - $container-width) / 3);
+            }
+
+            @media screen and (max-width: $one-column-break) {
+                float: none;
+                width: 92%;
+                max-width: 315px;
+                box-sizing: border-box;
+                margin: ($container-spacing) auto;
+            }
+        }
+
         // 4 column layout
         @media screen and (min-width: $four-column-break) {
             width: $container-width / 4;
